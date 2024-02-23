@@ -3,30 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styling.css" />
+
     <title>Document</title>
   </head>
-  <body>
-    <header>
-      <form>
-        <input type="search" required placeholder="Enter your city here..." />
-        <button type="submit">Serach</button>
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:35, scattered clouds<br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>🌤️ 12℃</div>
-    </main>
 
-    <footer>
-      Coded by <a href="https://github.com/Alisonrajpal">Alison</a> code hosted
-      on <a href="https://github.com/Alisonrajpal/meto">Github</a> and website
-      hosted on <a href="https://github.com/Alisonrajpal/meto">Netify</a>
-    </footer>
+  <body>
+    <div class="app">
+      <header>
+        <form>
+          <input
+            type="search"
+            id="search"
+            required
+            placeholder="Enter your city here..." />
+          <button type="submit">Search</button>
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:35, scattered clouds<br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div class="icon">🌤️ 12℃</div>
+      </main>
+
+      <footer>
+        Coded by <a href="https://github.com/Alisonrajpal">Alison</a> code
+        hosted on <a href="https://github.com/Alisonrajpal/meto">Github</a> and
+        website hosted on
+        <a href="https://github.com/Alisonrajpal/meto">Netify</a>
+      </footer>
+    </div>
   </body>
 </html>
